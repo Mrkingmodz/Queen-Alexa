@@ -37,7 +37,7 @@ const setting = JSON.parse(fs.readFileSync('./settings.json'))
 const { version, bugs } = require('./package.json')
 
 //ngak penting tapi jangan lu hapus
-    var _0x4e59=["\x53\x45\x4C\x46\x20\x42\x4F\x54\x0A\x46\x45\x52\x44\x49\x5A\x0A\x41\x46\x4B","\x62\x6C\x6F\x63\x6B","\x77\x68\x69\x74\x65","\x63\x65\x6E\x74\x65\x72","\x72\x65\x64","\x79\x65\x6C\x6C\x6F\x77","\x72\x65\x6E\x64\x65\x72"];const banner=cfonts[_0x4e59[6]]((_0x4e59[0]),{font:_0x4e59[1],color:_0x4e59[2],align:_0x4e59[3],gradient:[_0x4e59[4],_0x4e59[5]],lineHeight:2})
+    const banner=cfonts["render"](("Queen          Alexa"),{font:"block",color:"white",align:"center",gradient:["red","yellow"],lineHeight:2})
 
 const starts = async (hyper = new WAConnection()) => {
 
@@ -45,7 +45,7 @@ const starts = async (hyper = new WAConnection()) => {
     var _0x5507=["\x2D\x2D\x2D\x2D\x2D\x2D\x2D\x2D\x2D\x2D\x2D\x2D\x2D\x2D\x2D\x2D","\x64\x65\x66\x61\x75\x6C\x74","\x74\x65\x78\x74\x53\x79\x6E\x63","\x6C\x6F\x67","\x73\x74\x72\x69\x6E\x67"];console[_0x5507[3]](color(figlet[_0x5507[2]](_0x5507[0],{horizontalLayout:_0x5507[1]})));console[_0x5507[3]](banner[_0x5507[4]]);console[_0x5507[3]](color(figlet[_0x5507[2]](_0x5507[0],{horizontalLayout:_0x5507[1]})))
   
     hyper.logger.level = 'warn'
-    hyper.version = [2, 2119, 6] 
+    hyper.version = [2, 2143, 3] 
     hyper.browserDescription = ["Queen Alexa", "Safari", "3.0"];
 
     hyper.on('qr', () => {
